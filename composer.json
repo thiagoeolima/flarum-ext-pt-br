@@ -1,5 +1,5 @@
 {
-    "name": "kassius/brazilian-portuguese",
+    "name": "kassius/flarum-brazilian-portuguese",
     "type": "flarum-extension",
     "description": "Brazilian portuguese language pack.",
     "keywords": ["locale"],
