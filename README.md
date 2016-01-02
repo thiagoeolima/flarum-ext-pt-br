@@ -1,5 +1,12 @@
-# Flarum Brazilian Portuguese language pack
+# Flarum Brazilian Portuguese language pack (pt-BR)
 
-(flarum.org)
+https://discuss.flarum.org
 
-still in progress...
+Complete; Flarum version 0.1.0-beta4. Portuguese (Brazil) language pack. Português (Brasil), pt-BR
+
+Installation for now:
+
+1. Via command line go to `cd flarum_root_directory/extensions/` directory.
+2. Clone this repository with the command `git clone https://github.com/kassius/flarum-brazilian-portuguese.git`.
+3. Go to the Administration panel, then "Extensions" tab and enable the "Brazilian Portuguese" language pack extension.
+4. Go to "Basics" tab and change the language. `Português (Brasileiro)(pt-BR)`.
