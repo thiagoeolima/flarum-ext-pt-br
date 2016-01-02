@@ -3,7 +3,7 @@
     "type": "flarum-extension",
     "description": "Brazilian portuguese language pack.",
     "homepage": "https://github.com/kassius/flarum-brazilian-portuguese",
-    "keywords": ["portuguese","language","locale","localization","translation"],
+    "keywords": ["brazilian","portuguese","language","locale","localization","translation"],
     "license": "MIT",
     "authors": [
 	    {
