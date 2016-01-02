@@ -162,24 +162,24 @@ core:
 
     # These strings are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Can't Reply
-      cannot_reply_text: You don't have permission to reply to this discussion.
+      cannot_reply_button: Não é Possível Responder
+      cannot_reply_text: Você não tem permissão para responder à esta discussão.
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this discussion?"
+      delete_confirmation: "Você tem certeza que deseja deletar esta discussão?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Log In to Reply
-      rename_button: Rename
-      rename_text: "Enter a new title for this discussion:"
+      log_in_to_reply_button: Faça Login para Responder
+      rename_button: Renomear
+      rename_text: "Digite um novo título para esta discussão:"
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
     # These strings are used in the discussion list.
     discussion_list:
-      empty_text: "Looks like there are no discussions here. Why don't you create a new one?"
+      empty_text: "Parece que não há discussões aqui. Por que você não cria uma nova?"
       load_more_button: => core.ref.load_more
-      mark_as_read_tooltip: Mark as Read
-      replied_text: "{username} replied {ago}"
-      started_text: "{username} started {ago}"
+      mark_as_read_tooltip: Marcar como Lido
+      replied_text: "{username} respondeu {ago}"
+      started_text: "{username} iniciou {ago}"
 
     # These strings are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -192,36 +192,36 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
-      submit_button: Recover Password
-      text: Enter your email address and we will send you a link to reset your password.
-      title: Forgot Password
+      email_sent_message: Nós lhe enviamos um email contendo um link para redefinir a sua senha. Verifique sua pasta de spam se você não o receber dentro de um ou dois minutos.
+      submit_button: Recuperar Senha
+      text: Digite o seu endereço de email e nós iremos lhe enviar um link para redefinir sua senha.
+      title: Esqueci a Senha
 
     # These strings are used in the header and session dropdown menu.
     header:
-      admin_button: Administration
+      admin_button: Administração
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: Profile
-      search_placeholder: Search Forum
+      profile_button: Perfil
+      search_placeholder: Buscar no Fórum
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
     # These strings are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Can't Start Discussion
+      cannot_start_discussion_button: Não é Possível Iniciar Discussão
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      refresh_tooltip: Refresh
-      start_discussion_button: Start a Discussion
+      refresh_tooltip: Atualizar
+      start_discussion_button: Inicie uma Discussão
 
     # These strings are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Latest
-      newest_button: Newest
-      oldest_button: Oldest
-      relevance_button: Relevance
-      top_button: Top
+      latest_button: Últimas
+      newest_button: Mais novas
+      oldest_button: Mais antigas
+      relevance_button: Relevância
+      top_button: Topo
 
     # These strings are used in the Log In modal dialog.
     log_in:
