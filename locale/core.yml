@@ -79,9 +79,9 @@ core:
       basics_button: Básico
       basics_text: "Defina o título, idioma e outras configurações básicas do seu fórum.."
       dashboard_button: Dashboard
-      dashboard_text: Seu fórum numa olhada.
+      dashboard_text: Seu fórum num relance.
       extensions_button: Extensões
-      extensions_text: Adicionar funcionalidade extra ao seu fórum e o deixe próprio.
+      extensions_text: Adicione funcionalidade extra ao seu fórum e o deixe próprio.
       permissions_button: Permissões
       permissions_text: Configure quem pode ver e fazer o quê.
 
@@ -221,11 +221,11 @@ core:
       newest_button: Mais novas
       oldest_button: Mais antigas
       relevance_button: Relevância
-      top_button: Topo
+      top_button: Principais
 
     # These strings are used in the Log In modal dialog.
     log_in:
-      confirmation_required_message: "Você precisa confirmar seu email antes de poder logar-se. Nós enviamos um email de confirmação para {email}. Se ele não chegar em breve, verifique em sua pasta spam."
+      confirmation_required_message: "Você precisa confirmar seu email antes de poder logar. Nós enviamos um email de confirmação para {email}. Se ele não chegar em breve, verifique em sua pasta de spam."
       forgot_password_link: "Esqueceu sua senha?"
       invalid_login_message: Seus detalhes de login estavam incorretos.
       password_placeholder: => core.ref.password

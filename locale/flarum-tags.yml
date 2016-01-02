@@ -27,7 +27,7 @@ flarum-tags:
     # These strings are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Administrar a lista de tags disponíveis para organizar discussões.
+      tags_text: Administre a lista de tags disponíveis para organizar discussões.
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
