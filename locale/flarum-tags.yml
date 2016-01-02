@@ -45,7 +45,7 @@ flarum-tags:
 
     # These strings are used in the Tags page.
     tags:
-            about_tags_text: "Tags são utilizadas para categorizar discussões. Tags primárias são como categorias tradicionais de fórum: elas podem ser arrumadas numa hierarquia de dois níveis. Tags secundárias não possuem hierarquia ou ordem, e são úteis para micro-categorização."
+      about_tags_text: "Tags são utilizadas para categorizar discussões. Tags primárias são como categorias tradicionais de fórum: elas podem ser arrumadas numa hierarquia de dois níveis. Tags secundárias não possuem hierarquia ou ordem, e são úteis para micro-categorização."
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: Tags Primárias
       secondary_heading: Tags Secundárias

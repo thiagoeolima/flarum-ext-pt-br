@@ -34,7 +34,7 @@ flarum-subscriptions:
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Be notified of all replies.
+      following_text: Ser notificado de todas as respostas.
       ignoring_button: => flarum-subscriptions.ref.ignoring
       ignoring_text: Nunca ser notificado. Esconder da lista de discussão.
       not_following_button: Não Seguindo

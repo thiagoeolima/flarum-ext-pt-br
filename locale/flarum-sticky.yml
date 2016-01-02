@@ -26,7 +26,7 @@ flarum-sticky:
     # These strings are displayed between posts in the post stream.
     post_stream:
       discussion_stickied_text: "{username} afixou a discussão."
-      discussion_unstickied_text: "{username} desafixou a discussão.."
+      discussion_unstickied_text: "{username} desafixou a discussão."
 
   ##
   # REUSED STRINGS - These keys should not be used directly in code!
