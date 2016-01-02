@@ -30,8 +30,8 @@ core:
       home_page_text: "Escolha a página a qual os usuários verão primeiro quando eles visitarem o seu fórum. Ao entrar com um valor personalizado, use o caminho à partir da raíz do fórum."
       saved_message: Suas alterações foram salvas.
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: Banner de Boas-vindas
-      welcome_banner_text: Configure o texto que se mostra no banner na página Todas as Discussões. Use isto para dar às boas-vindas aos visitantes do seu fórum.
+      welcome_banner_heading: "Banner de Boas-vindas"
+      welcome_banner_text: "Configure o texto que se mostra no banner na página Todas as Discussões. Use isto para dar às boas-vindas aos visitantes do seu fórum."
           
     # These strings are used in the Dashboard page.
     dashboard:
@@ -156,7 +156,7 @@ core:
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
       discard_confirmation: "Você não postou sua resposta. Você deseja descartá-la?"
-      posted_message: Sua resposta foi postada.
+      posted_message: Sua resposta fora postada.
       submit_button: Postar Resposta
       view_button: Ver
 
