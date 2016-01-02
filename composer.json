@@ -2,8 +2,24 @@
     "name": "kassius/flarum-brazilian-portuguese",
     "type": "flarum-extension",
     "description": "Brazilian portuguese language pack.",
-    "keywords": ["locale"],
+    "homepage": "https://github.com/kassius/flarum-brazilian-portuguese",
+    "keywords": ["portuguese","language","locale","localization","translation"],
     "license": "MIT",
+    "authors": [
+	    {
+		    "name": "Kassius Mercurius",
+		    "email": "kassivs@gmail.com",
+		    "homepage": "https://www.kassius.org"
+	    }
+    ],
+    "support": {
+	    "issues": "https://github.com/kassius/flarum-brazilian-portuguese/issues",
+	    "source": "https://github.com/kassius/flarum-brazilian-portuguese"
+    },
+    "require": 
+    {
+	    "flarum/core": "^0.1.0-beta.4"
+    },
     "extra": {
         "flarum-extension": {
             "title": "Brazilian Portuguese (Português Brasileiro)",

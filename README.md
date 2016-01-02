@@ -6,7 +6,7 @@ Complete; Flarum version 0.1.0-beta4. Portuguese (Brazil) language pack. Portugu
 
 Installation for now:
 
-Using zip
+Using zip:
 
 1. Download the file https://github.com/kassius/flarum-brazilian-portuguese/archive/master.zip
 2. Unzip it in `flarum_root_directory/extensions/`
