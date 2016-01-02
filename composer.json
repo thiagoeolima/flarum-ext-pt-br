@@ -1,0 +1,22 @@
+{
+    "name": "kassius/brazilian-portuguese",
+    "type": "flarum-extension",
+    "description": "Brazilian portuguese language pack.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "extra": {
+        "flarum-extension": {
+            "title": "Brazilian Portuguese (Português Brasileiro)",
+            "icon": {
+                "image": "icon.jpg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "pt-BR",
+            "title": "Português (Brasileiro)"
+        }
+    }
+}
