@@ -22,47 +22,47 @@ core:
     # These strings are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Default Language
-      forum_description_heading: Forum Description
-      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
-      forum_title_heading: Forum Title
+      default_language_heading: Idioma Padrão
+      forum_description_heading: Descrição do Fórum
+      forum_description_text: Entre com uma ou duas sentenças curtas que descrevem sua comunidade. Isso aparecerá na tag meta e será mostrada em motores de busca.
+      forum_title_heading: Título do Fórum
       home_page_heading: Home Page
-      home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
-      saved_message: Your changes were saved.
+      home_page_text: "Escolha a página a qual os usuários verão primeiro quando eles visitarem o seu fórum. Ao entrar com um valor personalizado, use o caminho à partir da raíz do fórum."
+      saved_message: Suas alterações foram salvas.
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: Welcome Banner
-      welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
-
+      welcome_banner_heading: Banner de Boas-vindas
+      welcome_banner_text: Configure o texto que se mostra no banner na página Todas as Discussões. Use isto para dar às boas-vindas aos visitantes do seu fórum.
+          
     # These strings are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
-      contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
-      extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
-      features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
-      support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
-      troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
-      version_text: "Thanks for trying out Flarum! You are running version {version}."
+      beta_warning_text: "Este <strong>software beta</strong> é fornecido primariamente para que você possa ajudar-nos a testá-lo e fazê-lo melhor; ele não deve ser usado em produção."
+      contributing_text: "Quer procurar bugs e contribuir? Leia a <a>documentação de Contribuição</a>."
+      extension_text: "Interessado em desenvolver extensões? Leia a <a>documentação de Extensões</a>."
+      features_text: "Tem uma idéia para melhorar uma funcionalidade? Diga-nos sobre isso na <a>tag Features</a>."
+      support_text: "Encontrou um bug? Por favor reporte-o em nosso fórum, sob a <a>tag Support</a>."
+      troubleshooting_text: "Está tendo problemas? Siga as instruções na <a>documentação de Solução de Problemas</a>."
+      version_text: "Obrigado por experimentar o Flarum! Você está rodando a versão {version}."
 
     # These strings are used in the Edit Group modal dialog.
     edit_group:
-      color_label: Color
-      delete_button: Delete Group
-      delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
-      icon_label: Icon
-      icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>without</em> the <code>fa-</code> prefix."
-      name_label: Name
-      plural_placeholder: Plural (e.g. Mods)
-      singular_placeholder: Singular (e.g. Mod)
+      color_label: Cor
+      delete_button: Deletar Grupo
+      delete_confirmation: "Tem certeza que deseja deletar est egrupo? Os membros do grupo NÃO serão deletados."
+      icon_label: Ícone
+      icon_text: "Digite o nome de alguma classe de ícone do <a>FontAwesome</a>, <em>sem</em> o prefixo <code>fa-</code>."
+      name_label: Nome
+      plural_placeholder: Plural (ex. Moderadores)
+      singular_placeholder: Singular (ex. Moderador)
       submit_button: => core.ref.save_changes
-      title: Create Group
+      title: Criar Grupo
 
     # These strings are used in the Extensions page.
     extensions:
-      add_button: Add Extension
-      disable_button: Disable
-      enable_button: Enable
+      add_button: Adicionar Extensão
+      disable_button: Desabilitar
+      enable_button: Habilitar
       settings_button: => core.ref.settings
-      uninstall_button: Uninstall
+      uninstall_button: Desinstalar
 
     # This string is used in the session dropdown menu.
     header:
@@ -70,7 +70,7 @@ core:
 
     # This string is used in the modal dialog displayed when loading extensions.
     loading:
-      title: Please Wait...
+      title: Por Favor Aguarde...
 
     # These strings are used in the navigation bar.
     nav:
