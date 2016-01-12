@@ -9,7 +9,7 @@ flarum-sticky:
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
-      sticky_discussions_label: Discussões afixadas
+      sticky_discussions_label: Discussões fixadas
 
   # Strings in this namespace are used by the forum user interface.
   forum:
@@ -25,7 +25,7 @@ flarum-sticky:
 
     # These strings are displayed between posts in the post stream.
     post_stream:
-      discussion_stickied_text: "{username} afixou a discussão."
+      discussion_stickied_text: "{username} fixou a discussão."
       discussion_unstickied_text: "{username} desafixou a discussão."
 
   ##
@@ -34,4 +34,4 @@ flarum-sticky:
 
   # Strings in this namespace are referenced by two or more unique keys.
   ref:
-    sticky: Afixada
+    sticky: Fixada

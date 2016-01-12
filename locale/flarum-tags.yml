@@ -36,7 +36,7 @@ flarum-tags:
 
     # These strings are used in the Tag Settings modal dialog.
     tag_settings:
-      range_separator_text: " para "
+      range_separator_text: " a "
       required_primary_heading: Número Exigido de Tags Primárias
       required_primary_text: Entre com o número mínimo e máximo de tags primárias que podem ser aplicadas à uma discussão.
       required_secondary_heading: Número Exigido de Tags Secundárias
@@ -87,7 +87,7 @@ flarum-tags:
   lib:
 
     # This string is displayed in place of the name of a tag that's been deleted.
-    deleted_tag_text: Deleteda
+    deleted_tag_text: Deletada
 
   ##
   # REUSED STRINGS - These keys should not be used directly in code!

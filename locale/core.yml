@@ -26,7 +26,7 @@ core:
       forum_description_heading: Descrição do Fórum
       forum_description_text: Entre com uma ou duas sentenças curtas que descrevem sua comunidade. Isso aparecerá na tag meta e será mostrada em motores de busca.
       forum_title_heading: Título do Fórum
-      home_page_heading: Home Page
+      home_page_heading: Página Inicial
       home_page_text: "Escolha a página a qual os usuários verão primeiro quando eles visitarem o seu fórum. Ao entrar com um valor personalizado, use o caminho à partir da raíz do fórum."
       saved_message: Suas alterações foram salvas.
       submit_button: => core.ref.save_changes
@@ -47,7 +47,7 @@ core:
     edit_group:
       color_label: Cor
       delete_button: Deletar Grupo
-      delete_confirmation: "Tem certeza que deseja deletar est egrupo? Os membros do grupo NÃO serão deletados."
+      delete_confirmation: "Tem certeza que deseja deletar este egrupo? Os membros do grupo NÃO serão deletados."
       icon_label: Ícone
       icon_text: "Digite o nome de alguma classe de ícone do <a>FontAwesome</a>, <em>sem</em> o prefixo <code>fa-</code>."
       name_label: Nome
@@ -77,8 +77,8 @@ core:
       appearance_button: Aparência
       appearance_text: "Personalize as cores, logos e outras variáveis do seu fórum."
       basics_button: Básico
-      basics_text: "Defina o título, idioma e outras configurações básicas do seu fórum.."
-      dashboard_button: Dashboard
+      basics_text: "Defina o título, idioma e outras configurações básicas do seu fórum."
+      dashboard_button: Painel
       dashboard_text: Seu fórum num relance.
       extensions_button: Extensões
       extensions_text: Adicione funcionalidade extra ao seu fórum e o deixe próprio.
@@ -101,7 +101,7 @@ core:
       read_heading: Ler
       rename_discussions_label: Renomear discussões
       reply_to_discussions_label: Responder à discussões
-      sign_up_label: Assinar
+      sign_up_label: Cadastre-se
       start_discussions_label: Iniciar discussões
       view_discussions_label: Ver discussões
 
@@ -129,7 +129,7 @@ core:
     # These strings are used in the Change Password modal dialog.
     change_password:
       send_button: Enviar Email de Redefinição de Senha
-      text: Clique no botão abaixo e verifique o seu email por um link para mudar sua senha.
+      text: Ao clicar no botão abaixo um link será enviado ao seu e-mail.
       title: => core.ref.change_password
 
     # These strings are used by the composer controls.
@@ -142,21 +142,21 @@ core:
     # These strings are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: Escreva um Post...
-      discard_confirmation: "Você não postou sua discussão. Você deseja descartá-la?"
+      discard_confirmation: "Você não postou sua discussão. Deseja descartá-la?"
       submit_button: Postar Discussão
       title_placeholder: Título da Discussão
 
     # These strings are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "Você não salvou suas mudanças. Você deseja descartá-las?"
+      discard_confirmation: "Você não salvou suas mudanças. Deseja descartá-las?"
       post_link: "Post #{number} em {discussion}"
       submit_button: => core.ref.save_changes
 
     # These strings are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "Você não postou sua resposta. Você deseja descartá-la?"
-      posted_message: Sua resposta fora postada.
+      discard_confirmation: "Você não postou sua resposta. Deseja descartá-la?"
+      posted_message: Sua resposta foi postada.
       submit_button: Postar Resposta
       view_button: Ver
 
@@ -167,7 +167,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "Você tem certeza que deseja deletar esta discussão?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Faça Login para Responder
+      log_in_to_reply_button: Entre e Responda
       rename_button: Renomear
       rename_text: "Digite um novo título para esta discussão:"
       reply_button: => core.ref.reply
@@ -175,7 +175,7 @@ core:
 
     # These strings are used in the discussion list.
     discussion_list:
-      empty_text: "Parece que não há discussões aqui. Por que você não cria uma nova?"
+      empty_text: "Parece que não há discussões por aqui. Por que você não cria uma?"
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Marcar como Lido
       replied_text: "{username} respondeu {ago}"
@@ -194,8 +194,8 @@ core:
       email_placeholder: => core.ref.email
       email_sent_message: Nós lhe enviamos um email contendo um link para redefinir a sua senha. Verifique sua pasta de spam se você não o receber dentro de um ou dois minutos.
       submit_button: Recuperar Senha
-      text: Digite o seu endereço de email e nós iremos lhe enviar um link para redefinir sua senha.
-      title: Esqueci a Senha
+      text: Digite o seu endereço de email para enviarmos um link para redefinir sua senha.
+      title: Esqueceu sua senha?
 
     # These strings are used in the header and session dropdown menu.
     header:
@@ -210,7 +210,7 @@ core:
     # These strings are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Não é Possível Iniciar Discussão
+      cannot_start_discussion_button: Inicie uma Discussão
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Atualizar
       start_discussion_button: Inicie uma Discussão
@@ -225,11 +225,11 @@ core:
 
     # These strings are used in the Log In modal dialog.
     log_in:
-      confirmation_required_message: "Você precisa confirmar seu email antes de poder logar. Nós enviamos um email de confirmação para {email}. Se ele não chegar em breve, verifique em sua pasta de spam."
+      confirmation_required_message: "Você precisa confirmar seu email antes de poder Entrar. Nós enviamos um email de confirmação para {email}. Se ele não chegar em breve, verifique em sua pasta de spam."
       forgot_password_link: "Esqueceu sua senha?"
-      invalid_login_message: Seus detalhes de login estavam incorretos.
+      invalid_login_message: Nome de usuário ou senha incorretos.
       password_placeholder: => core.ref.password
-      sign_up_text: "Não tem uma conta? <a>Assine</a>"
+      sign_up_text: "Não tem uma conta? <a>Cadastre-se</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: Nome de usuário ou Email
@@ -254,11 +254,11 @@ core:
       edit_button: => core.ref.edit
       restore_button: => core.ref.restore
 
-    # These strings are used in the scrubber to the right of the post stream.
+    # These strings are used in the scrubber to the right of the post stream. Pluralização forçada {Unread_text}
     post_scrubber:
       now_link: Agora
       original_post_link: Post Original
-      unread_text: "{count} não lido"
+      unread_text: "{count} não lido|{count} não lidos"
       viewing_text: "{index} de {count} post|{index} de {count} posts"
 
     # These strings are displayed between posts in the post stream.
@@ -269,7 +269,7 @@ core:
 
     # These strings are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Busque todas as discussões por "{query}"'
+      all_discussions_button: 'Buscar por "{query}"'
       discussions_heading: => core.ref.discussions
       users_heading: Usuários
 
@@ -291,17 +291,17 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "Já tem uma conta? <a>Logue-se</a>"
+      log_in_text: "Já tem uma conta? <a>Entre</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Bem-vindo, {username}!"
+      welcome_text: "Bem-vindo {username}!"
 
     # These strings are used in the user profile page and profile popup.
     user:
       avatar_remove_button: Remover
-      avatar_upload_button: Upload
+      avatar_upload_button: Enviar
       bio_placeholder: Escreva algo sobre si mesmo
       discussions_link: => core.ref.discussions
       joined_date_text: "Entrou {ago}"
@@ -310,9 +310,9 @@ core:
       posts_link: Posts
       settings_link: => core.ref.settings
 
-    # These strings are found on the user profile page (admin function).
+    # These strings are found on the user profile page (admin function). maybe? Controles => Ações
     user_controls:
-      button: Controles
+      button: Ações
       delete_button: => core.ref.delete
       delete_confirmation: "Você tem certeza que deseja deletar este usuário? Todos os posts do usuário serão deletados."
       edit_button: => core.ref.edit
@@ -331,7 +331,7 @@ core:
     error:
       generic_message: "Oops! Algo deu errado. Por favor recarregue a página e tente novamente."
       permission_denied_message: Você não tem permissão para fazer isso.
-      not_found_message: O recurso solicitado não fora encontrado.
+      not_found_message: O recurso solicitado não foi encontrado.
       rate_limit_exceeded_message: "Você está indo um pouco rápido demais. Por gentileza, tente novamente em alguns segundos."
 
     # These strings are used as suffixes when abbreviating numbers.
@@ -348,7 +348,7 @@ core:
   # Strings in this namespace are used in basic HTML interface.
   basic:
     loading_text: Carregando...
-    load_error_message: Algo deu errado ao tentar carregar a versão completa deste site.
+    load_error_message: Algo deu errado ao tentar carregar a versão completa do site.
     javascript_disabled_message: Este site é melhor visto num navegador moderno com JavaScript habilitado.
     next_page_button: Próxima Página
     previous_page_button: Página Anterior
@@ -362,24 +362,24 @@ core:
     all_discussions: Todas as Discussões
     change_email: Mudar Email
     change_password: Mudar Senha
-    confirmation_email_sent: "Nós enviamos um email de confirmação para {email}. Se ele não chegar logo, verifique sua pasta de spam."
+    confirmation_email_sent: "Nós enviamos um email de confirmação para {email}. Se ele não chegar logo, verifique sua caixa de spam."
     delete: Deletar
     delete_forever: Deletar Permanentemente
     discussions: Discussões
     edit: Editar
     email: Email
     load_more: Carregar Mais
-    log_in: Log In
+    log_in: Entrar
     log_out: Sair
     mark_all_as_read: Marcar Tudo como Lido
     notifications: Notificações
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Senha
     reply: Responder                             # Referenced by flarum-mentions.yml
-    restore: Restore
+    restore: Restaurar
     save_changes: Salvar Mudanças                # Referenced by flarum-tags.yml
     settings: Configurações
-    sign_up: Assinar
+    sign_up: Cadastre-se
     some_others: "{count} outro|{count} outros"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     username: Nome de usuário
     write_a_reply: Escrever uma Resposta...
@@ -394,29 +394,27 @@ core:
 
     # These strings are used in emails sent when users register new accounts.
     activate_account:
-      subject: Ative Sua Nova Conta
+      subject: Ative Sua Nova Conta {forum}
       body: |
         Olá {username}!
+        
+        Bem vindo ao {forum}!
 
-        Alguém (esperamos que você!) assinou à {forum} com este endereço de email.
-
-        Se este foi você, basta clicar no seguinte link e sua conta será ativada:
+        Para ativar sua conta Clique no link:
         {url}
-
-        Se você não assinou, por gentileza ignore este email.
+        
+        Se não foi você quem se cadastrou, apenas ignore este email.
 
     # These strings are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
+      subject: Confirme seu endereço de e-mail
       body: |
         Olá {username}!
 
-        Alguém (esperamos que você!) mudou seu endereço de email em {forum} à este endereço.
-
-        Se este foi você, basta clicar no seguinte link e seu email será confirmado:
+        Para confirmar a mudança de endereço de email em {forum} clique no link:
         {url}
 
-        Se este não foi você, por favor ignore este email.
+        Se você não solicitou isso, apenas ignore este email.
 
     # These strings are used in emails sent when users ask to reset their passwords.
     reset_password:
@@ -424,12 +422,10 @@ core:
       body: |
         Olá {username}!
 
-        Alguém (esperamos que você) enviou uma solicitação se senha esquecida para sua conta em {forum}.
-
-        Se este foi você, clique no seguinte link para redefinir sua senha:
+        Para alterar sua senha em {forum} clique no link:
         {url}
 
-        Se você não deseja mudar sua senha, apenas ignore este email e nada acontecerá.
+        Se você não solicitou isso, apenas ignore este email.
 
   ##
   # GROUP NAMES
