@@ -20,7 +20,7 @@ validation:
   digits: "O :attribute deve ser :digits dígitos."
   digits_between: "O :attribute deve estar entre :min e :max dígitos."
   email: "O :attribute deve ser um endereço de email válido."
-  exists: "O :attribute selecionado é inválido."
+  exists: "O :attribute selecionado ja existe."
   filled: "O campo :attribute é exigido."
   image: "O :attribute deve ser uma imagem."
   in: "O :attribute selecionado é inválido."
@@ -29,7 +29,7 @@ validation:
   json: "O :attribute deve ser uma string JSON válida."
   max:
     numeric: "O :attribute não pode ser maior do que :max."
-    file: "O :attribute não pode ser maior do que :max kilobytes."
+    file: "O :attribute não pode ser mribute não pode ser maior do queaior do que :max kilobytes."
     string: "O :attribute não pode ser maior do que :max caracteres."
     array: "O :attribute não pode ter mais do que :max ítens."
   mimes: "O :attribute deve ser um arquivo do tipo: :values."
@@ -43,7 +43,7 @@ validation:
   regex: "O formato do :attribute é inválido."
   required: "O campo :attribute é exigido."
   required_if: "O campo :attribute é exigido quando :other é :value."
-  required_with: "O :attribute field is required when :values is present."
+  required_with: "O campo :attribute é exigido quando :values está presente."
   required_with_all: "O campo :attribute é exigido quando :values está presente."
   required_without: "O campo :attribute é exigido quando :values não está presente."
   required_without_all: "O campo :attribute é exigido quando nenhum dos :values está presente."
@@ -55,7 +55,7 @@ validation:
     array: "O :attribute deve conter :size ítens."
   string: "O :attribute deve ser uma string."
   timezone: "O :attribute deve ser um fuso horário."
-  unique: "O :attribute já foi tomado."
+  unique: "O :attribute já existe."
   url: "O formato do :attribute é inválido."
 
   attributes:

@@ -22,7 +22,7 @@ flarum-flags:
 
     # These strings are used by the Flag Post modal dialog.
     flag_post:
-      confirmation_message: Obrigado por sinalizar este post. Nossos moderadores olharão para ele.
+      confirmation_message: Obrigado por sinalizar este post. Nossos moderadores olharão ele.
       dismiss_button: => core.ref.okay
       reason_inappropriate_label: Inapropriado
       reason_inappropriate_text: "Este post é ofensivo, abusivo, ou viola nossas <a>regras da comunidade</a>."
