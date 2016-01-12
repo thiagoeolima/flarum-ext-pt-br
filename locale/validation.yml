@@ -29,7 +29,7 @@ validation:
   json: "O :attribute deve ser uma string JSON válida."
   max:
     numeric: "O :attribute não pode ser maior do que :max."
-    file: "O :attribute não pode ser mribute não pode ser maior do queaior do que :max kilobytes."
+    file: "O :attribute não pode ser não pode ser maior do que :max kilobytes."
     string: "O :attribute não pode ser maior do que :max caracteres."
     array: "O :attribute não pode ter mais do que :max ítens."
   mimes: "O :attribute deve ser um arquivo do tipo: :values."
