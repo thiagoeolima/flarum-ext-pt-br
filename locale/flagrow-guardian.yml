@@ -1,0 +1,26 @@
+flagrow-guardian:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  package_name: "Guardian"
+  package_description: "Monitore usuários e suas relações"
+  generic:
+    never: nunca
+
+  # These translations are used in the Guardian Settings modal dialog.
+  admin:
+    nav:
+      guardian_button: => flagrow-guardian.package_name
+      guardian_text: => flagrow-guardian.package_description
+    grid:
+      user:
+        joined_at: Registrou
+        last_seen_at: Última vez online
+        badges: Grupos
+        activated: Ativo
+        details: Detalhes
+        states:
+          never_visited: => flagrow-guardian.generic.never

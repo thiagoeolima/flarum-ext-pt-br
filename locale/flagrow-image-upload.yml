@@ -7,27 +7,44 @@ flagrow-image-upload:
             success: Enviado
             error: Erro
     admin:
+        permissions:
+            upload_images_label: Enviar imagens
         upload_methods:
             local: Local
             imgur: Imgur
+            cloudinary: Cloudinary
         labels:
-            upload_method: Metodo de upload
+            upload_method: Método de upload
+            preferences:
+                title: Configurações Gerais
+                max_file_size: Tamanho maximo da imagem (em kilobytes)
             resize:
-                title: Redimensionamento de imagem
+                title: redimensionamento de imagem
                 toggle: Ativar redimensionamento
-                max_width: Largura máxima da imagem
-                max_height: Altura máxima da imagem
+                max_width: Largura máxima
+                max_height: Altura máxima
             imgur:
                 title: Configurações do Imgur
-                client_id: Client ID
+                client_id: Client-ID
+            local:
+                title: Configurações de armazenamento local
+                cdn_url: Caminho dos arquivos
+            cloudinary:
+                title: Configurações do Cloudinary
+                cloud_name: Nome Cloud
+                api_key: Api key
+                api_secret: Api secret
         buttons:
             save: Salvar configurações
         help_texts:
             description: >
-                Configure serviços de upload de imagem e suas preferencias.
+                Configure o upload de imagens.
             upload_method: >
-                Selecione o metodo que você deseja usar para enviar suas imagens.
+                Aqio você pode selecionar o método que quer usar
+                para enviar suas imagens. Quando selecionar um
+                painel de configurações relativo será exibido.
             resize: >
-                Escolha se você quer redimensionar as imagens antes que as envie.
-                Você pode escolher a altura e largura maxima, em pixels.
-                O processo de redimensionamento mantém as proporções da imagem.
+                Escolha se quer redimensionar suas imagens antes
+                que elas sejam enviadas. Você pode escoler a Largura
+                e Altura maxima, em pixels. O processo de redimensionamento
+                mantêm as proporções da imagem.
