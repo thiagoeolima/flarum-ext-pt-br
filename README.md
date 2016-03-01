@@ -5,6 +5,7 @@ A [Flarum](http://flarum.org) language pack.
 ## Installation:
 
 > This extension requires Flarum beta 5.
+
 ### Using composer (recommended):
 
 ```bash
