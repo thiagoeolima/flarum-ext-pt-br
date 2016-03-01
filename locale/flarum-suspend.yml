@@ -1,38 +1,33 @@
 flarum-suspend:
-    
+
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
   ##
-  
-  # Strings in this namespace are used by the forum interface.
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      suspend_users_label: Suspender usuários
+
+  # Translations in this namespace are used by the forum user interface.
   forum:
-    
+
+    # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      title: => flarum-suspend.ref.suspend
+      title: "Suspender {username}"
       status_heading: Suspenso até
       not_suspended_label: Não está suspenso
       indefinitely_label: Tempo indeterminado
       limited_time_label: Tempo determinado
-      limited_time_days_text: Dias
-      submit_button: Salvar Mudanças
-    
-      
-    user_controls:
-      suspend_button: => flarum-suspend.ref.suspend
-      
+      limited_time_days_text: " Dias"
+      submit_button: => core.ref.save_changes
+
+    # These translations are displayed as tooltips for user badges.
     user_badge:
       suspended_tooltip: Suspenso
-     
-  # Strings in this namespace are used by the admin interface.    
-  admin:
-    permissions:
-      suspend_users_label: Suspender usuários
-      
-      
-  ##
-  # REUSED STRINGS - These keys should not be used directly in code!
-  ##
 
-  # Strings in this namespace are referenced by two or more unique keys.
-  ref:
-    suspend: Suspender    
+    # These translations are found on the user profile page (admin function).
+    user_controls:
+      suspend_button: => flarum-suspend.ref.suspend
