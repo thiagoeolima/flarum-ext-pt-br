@@ -1,0 +1,31 @@
+flagrow-analytics:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Analytics Settings modal dialog.
+    popup:
+      title: Configurações do Analytics
+
+      field:
+        googleTrackingCode: ID Codigo de rastreamento
+        piwikUrl: Url do Piwik
+        piwikSiteId: Id do Site
+        piwikAliasUrl: Url conhecida
+        piwikAuthToken: Codigo de autenticação config->users
+
+      checkbox:
+        label:
+          piwikTrackSubdomain: Rastrear usuários através de todos os subdominios
+          piwikPrependDomain: Preceder o dominio ao titulo da pagina
+          piwikHideAliasUrl: Nos relatórios de "Outlinks", esconder clicks de sites conhecidos
+
+    # These translations are used in the Analytics page dialog.
+    page:
+      nav:
+        title: Analytics
+        description: De uma olhada em suas estatisticas
