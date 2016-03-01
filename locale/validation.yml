@@ -43,6 +43,7 @@ validation:
   regex: "O formato do :attribute é inválido."
   required: "O campo :attribute é exigido."
   required_if: "O campo :attribute é exigido quando :other é :value."
+  required_unless: "O campo :attribute é exigido a não ser que :other é :values."
   required_with: "O campo :attribute é exigido quando :values está presente."
   required_with_all: "O campo :attribute é exigido quando :values está presente."
   required_without: "O campo :attribute é exigido quando :values não está presente."
@@ -66,3 +67,7 @@ validation:
     content: conteúdo
     name_singular: nome singular
     name_plural: nome plural
+
+  custom:
+    username:
+      regex: "O nome de usuário só pode conter letras, numeros, e traços."
