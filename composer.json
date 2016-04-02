@@ -1,5 +1,5 @@
 {
-    "name": "kassius/flarum-ext-pt-br",
+    "name": "santiagobiali/flarum-ext-pt-br",
     "type": "flarum-extension",
     "description": "Brazilian portuguese language pack.",
     "keywords": ["brazilian","portuguese","language","locale","localization","translation"],
@@ -18,8 +18,8 @@
 
     ],
     "support": {
-	    "issues": "https://github.com/kassius/flarum-ext-pt-br/issues",
-	    "source": "https://github.com/kassius/flarum-ext-pt-br"
+	    "issues": "https://github.com/santiagobiali/flarum-ext-pt-br/issues",
+	    "source": "https://github.com/santiagobiali/flarum-ext-pt-br"
     },
     "require":
     {
@@ -30,6 +30,7 @@
             "title": "Português - BR",
             "icon": {
                 "image": "icon.svg",
+                "backgroundColor": "#ffffff",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }

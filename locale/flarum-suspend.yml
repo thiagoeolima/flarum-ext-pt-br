@@ -30,4 +30,4 @@ flarum-suspend:
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      suspend_button: => flarum-suspend.ref.suspend
+      suspend_button: Suspender
