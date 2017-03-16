@@ -9,7 +9,7 @@ A [Flarum](http://flarum.org) language pack.
 ### Using composer (recommended):
 
 ```bash
-composer require santiagobiali/flarum-ext-pt-br
+composer require thiagoeolima/flarum-ext-pt-br
 ```
 
 ###Last steps:

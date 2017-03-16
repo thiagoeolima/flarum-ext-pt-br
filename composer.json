@@ -1,30 +1,35 @@
 {
-    "name": "santiagobiali/flarum-ext-pt-br",
+    "name": "thiagoeolima/flarum-ext-pt-br",
     "type": "flarum-extension",
     "description": "Brazilian portuguese language pack.",
-    "keywords": ["brazilian","portuguese","language","locale","localization","translation"],
+    "keywords": ["brazilian", "portuguese", "language", "locale", "localization", "translation"],
     "license": "MIT",
     "authors": [
-  	    {
-    		    "name": "Kassius Mercurius",
-    		    "email": "kassivs@gmail.com",
-    		    "homepage": "https://www.kassius.org"
-	      },
+        {
+            "name": "Kassius Mercurius",
+            "email": "kassivs@gmail.com",
+            "homepage": "https://www.kassius.org"
+        },
         {
             "name": "Santiago Testa Biali",
             "email": "santiago.t.biali@gmail.com",
             "github": "https://github.com/santiagobiali"
-      }
+        },
+        {
+            "name": "Thiago Emmanuel",
+            "email": "contact@thiagoemmanuel.com",
+            "github": "https://github.com/thiagoeolima"
+        }
 
     ],
     "support": {
-	    "issues": "https://github.com/santiagobiali/flarum-ext-pt-br/issues",
-	    "source": "https://github.com/santiagobiali/flarum-ext-pt-br"
+        "issues": "https://github.com/thiagoeolima/flarum-ext-pt-br/issues",
+        "source": "https://github.com/thiagoeolima/flarum-ext-pt-br"
     },
     "require":
-    {
-	    "flarum/core": "^0.1.0-beta.5"
-    },
+            {
+                "flarum/core": "^0.1.0-beta.5"
+            },
     "extra": {
         "flarum-extension": {
             "title": "Português - BR",
